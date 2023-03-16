@@ -69,4 +69,11 @@ jobs:
     steps:
       - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.ftp_host }}
+          username: ${{ secrets.ftp_user }}
+          password: ${{ secrets.ftp_password }}
+          protocol: ftps
+          port: ${{ secrets.ftp_port }}
+          security: strict
 
