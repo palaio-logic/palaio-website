@@ -1,6 +1,6 @@
 ---
 title: "Palaio Logic"
-tagline: "Robotics Software Development, AI & HRI"
+tagline: "Robotics Software, AI & HRI"
 date: 2023-03-15T17:10:40+01:00
 draft: false
 ---
