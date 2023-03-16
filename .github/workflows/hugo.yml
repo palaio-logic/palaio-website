@@ -63,4 +63,4 @@ jobs:
           protocol: ftps
           port: ${{ secrets.ftp_port }}
           security: strict
-          local-dir: public
+          local-dir: public/
