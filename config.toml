@@ -20,9 +20,6 @@ copyright = "CC BY Palaio Logic"
   author = "Palaio Logic"
   description = "Palaio Logic is a contractor in Robotics Software Development, AI & HRI"
 
-  # Favicon
-  favicon = "favicon.ico"
-
   # Section - Visual
   [params.visual]
 
