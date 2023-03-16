@@ -19,9 +19,9 @@ to take your smart device to the next level!
 
 ## They Recommend Me
 
-[![Aldebaran](aldebaran.webp)](https://www.aldebaran.com "Aldebaran {width='300'}")
+[![Aldebaran](aldebaran.webp "Aldebaran {width='300'}")](https://www.aldebaran.com)
 
-[![Semio](semio.webp)](https://semio.ai "Semio {width='300'}")
+[![Semio](semio.webp "Semio {width='300'}")](https://semio.ai)
 
 ## Virtual and Embodied Agents
 
