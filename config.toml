@@ -29,7 +29,7 @@ copyright = "CC BY Palaio Logic"
     # Image
     [params.visual.image]
       enable = true
-      file = "portrait.jpg"
+      file = "portrait.webp"
       position = "center center"
 
   # Links

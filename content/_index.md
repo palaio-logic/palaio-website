@@ -5,7 +5,7 @@ date: 2023-03-15T17:10:40+01:00
 draft: false
 ---
 
-# Call an expert
+## Call an expert
 
 Use the help of Victor Paléologue ([résumé](resume.pdf))
 to take your smart device to the next level!
@@ -17,13 +17,13 @@ to take your smart device to the next level!
 
 [Just call me](https://cal.com/victor-paleologue/call)!
 
-# I worked with
+## They Recommend Me
 
-[![Aldebaran](aldebaran.png)](https://www.aldebaran.com)
+[![Aldebaran](aldebaran.webp)](https://www.aldebaran.com)
 
-[![Semio.AI](semio.png)](https://semio.ai)
+[![Semio.AI](semio.webp)](https://semio.ai)
 
-# Virtual and Embodied Agents
+## Virtual and Embodied Agents
 
 Virtual agents, embodied in robots
 are often large software systems with numerous modules.
@@ -38,7 +38,7 @@ I had the opportunity to work on these issues in the past,
 and I love to get into these challenges,
 while taking care of the legacy.
 
-# Decision-making, dialogues and AI
+## Decision-making, dialogues and AI
 
 Interesting behaviors and dialogues can be achieved with classical programming,
 with models like Behavior Trees, State Machines...
@@ -52,7 +52,7 @@ But there is a lot to gain by bringing in AI techniques:
 I favor explainable solutions that let you in control,
 and the reduction of data collection.
 
-# Embedded Development
+## Embedded Development
 
 From MCUs to Android phones,
 there is a large range of devices I can work with.
