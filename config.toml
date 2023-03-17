@@ -1,5 +1,5 @@
 # Site settings
-baseURL = 'https://ecomail.palaiologic.fr/'
+baseURL = 'https://palaio.eu/'
 languageCode = 'en-us'
 title = 'Palaio Logic'
 theme = 'hugo-split-theme'
