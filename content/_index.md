@@ -12,7 +12,7 @@ to take your smart device to the next level!
 
 * Ph.D. in Human-Robot Interaction (HRI)
 * \>10 y. of experience in C++ at [Aldebaran](https://www.aldebaran.com)
-* [TinyML](https://credentials.edx.org/credentials/b95f9f8743b94a13965fc4a10bf9d75f/)
+* [TinyML](https://credentials.edx.org/credentials/97ee94165e59477aad0323eb55ad1018/)
   & [Deep Learning](https://www.coursera.org/account/accomplishments/specialization/GTHD6MQDV5VF) certifications
 
 [Just call me](https://cal.com/victor-paleologue/call)!
