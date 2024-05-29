@@ -16,51 +16,51 @@ copyright = "CC BY Palaio Logic"
 
 [params]
 
-  # Metadata for search engines and social sharing
-  author = "Palaio Logic"
-  description = "Palaio Logic is a contractor in Robotics Software Development, AI & HRI"
+# Metadata for search engines and social sharing
+author = "Palaio Logic"
+description = "Palaio Logic is a contractor in Robotics Software Development, AI & HRI"
 
-  # Section - Visual
-  [params.visual]
+# Section - Visual
+[params.visual]
 
-    # Image
-    [params.visual.image]
-      enable = true
-      file = "portrait.webp"
-      position = "center center"
+# Image
+[params.visual.image]
+enable = true
+file = "palaio_big_logo.webp"
+position = "center center"
 
-  # Links
-  #
-  # Links List #1
-  [[params.links]]
-    [params.links.list1]
-      heading = "Connect"
+# Links
+#
+# Links List #1
+[[params.links]]
+[params.links.list1]
+heading = "Connect"
 
-      [[params.links.list1.link]]
-        text = "LinkedIn"
-        url = "https://www.linkedin.com/in/victorpaleologue/"
-        new_tab = true # new tab
+[[params.links.list1.link]]
+text = "LinkedIn"
+url = "https://www.linkedin.com/in/victorpaleologue/"
+new_tab = true                                        # new tab
 
-      [[params.links.list1.link]]
-        text = "Mastodon"
-        url = "https://fediscience.org/@palaio"
-        new_tab = true
+[[params.links.list1.link]]
+text = "Mastodon"
+url = "https://fediscience.org/@palaio"
+new_tab = true
 
-  # Links List #2
-  [[params.links]]
-    [params.links.list2]
-      heading = "Contact"
+# Links List #2
+[[params.links]]
+[params.links.list2]
+heading = "Contact"
 
-      [[params.links.list2.link]]
-        text = "Schedule a Call"
-        url = "https://cal.com/victor-paleologue/call"
-        new_tab = true # new tab
+[[params.links.list2.link]]
+text = "Schedule a Call"
+url = "https://cal.com/victor-paleologue/call"
+new_tab = true                                 # new tab
 
-      [[params.links.list2.link]]
-        text = "Email"
-        url = "mailto:contact@palaio.eu"
+[[params.links.list2.link]]
+text = "Email"
+url = "mailto:contact@palaio.eu"
 
-  # The original template is released under the Creative Commons Attribution 3.0 License.
-  # Please keep the original attribution link when using for your own project.
-  # If you'd like to use the template without the attribution, you can check out
-  # the license option via the template author's website: https://onepagelove.com/split
+# The original template is released under the Creative Commons Attribution 3.0 License.
+# Please keep the original attribution link when using for your own project.
+# If you'd like to use the template without the attribution, you can check out
+# the license option via the template author's website: https://onepagelove.com/split
