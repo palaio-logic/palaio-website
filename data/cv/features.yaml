@@ -1,0 +1,73 @@
+# Personal information, skills, spoken languages and certifications for the CV.
+# Rendered by layouts/cv/ (adapted from the Resume-A4 theme).
+
+about:
+  name: Victor Paléologue
+  tagline: Freelance Software Engineer for Robotics, AI and smart devices — PhD in Human-Robot Interaction — Paris, France
+  email: contact@palaio.eu
+  links:
+    - title: palaio.eu
+      url: https://palaio.eu
+      icon: fas fa-globe
+    - title: /in/victorpaleologue
+      url: https://www.linkedin.com/in/victorpaleologue
+      icon: fab fa-linkedin
+    - title: '@palaio'
+      url: https://fediscience.org/@palaio
+      icon: fab fa-mastodon
+  details: |
+    Robotics are like magic to me: tell the right words (software), and the robot
+    will animate (hardware). For more than 10 years, my job has been to develop
+    GUI tools and SDKs to help users become wizards of robotics. Such development
+    involved intense teamwork, good organization, communication and a lot of
+    programming skills.
+
+    I specialize in AI for embedded software: I can bring machine learning,
+    chatbots and task planning into robots, as well as mobile and web apps, and I
+    have serious experience integrating tough code into custom targets. All of
+    these are ingredients for better Human-Machine Interaction, working towards
+    Human-Robot Interaction, the field I specialized in with my PhD at ISIR,
+    Sorbonne Université.
+
+skills:
+  - groupName: Programming
+    list:
+      - C++ · Rust · Python
+      - Kotlin · Java
+
+  - groupName: Robotics & AI
+    list:
+      - ROS · PDDL planning
+      - Reinforcement Learning
+      - TensorFlow · TinyML
+
+  - groupName: Engineering
+    list:
+      - Software Architecture
+      - SDK & API design
+      - Embedded Software
+      - DevOps · Teaching
+
+languages:
+  - name: French
+    level: Native
+
+  - name: English
+    level: Full Professional
+
+  - name: Romanian
+    level: Elementary
+
+  - name: Spanish
+    level: Elementary
+
+certificates:
+  - title: AI Agents Fundamentals
+
+  - title: Applied Tiny Machine Learning (TinyML) for Scale
+    subtitle: HarvardX
+
+  - title: Deep Learning Specialization
+    subtitle: DeepLearning.AI
+
+  - title: ROS-based Unitree G1 Humanoid Robotics Training

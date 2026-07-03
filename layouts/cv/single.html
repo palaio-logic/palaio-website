@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+{{- /*
+	CV layout adapted from the Resume-A4 Hugo theme by Mert Bakır (MIT),
+	https://gitlab.com/mertbakir/resume-A4 — template code by Jaakko Kantojärvi.
+	Adapted to render as a regular page: arrangement comes from the page's
+	front matter (.Params) and resume data from data/cv/ (site.Data.cv).
+*/ -}}
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	{{ $style := resources.Get "css/cv/main.scss" | toCSS | minify | fingerprint }}
+	<link rel="stylesheet" href="{{ $style.RelPermalink }}" />
+	{{ if .Params.useFontAwesome }}
+	<link rel="stylesheet" href="{{ "vendor/fontawesome/css/all.min.css" | relURL }}" />
+	{{ end }}
+	<link rel="icon" href="{{ "favicon.ico" | relURL }}">
+	<title itemprop="name">{{ .Title }}</title>
+</head>
+
+<body>
+	{{ $data := .Site.Data.cv }}
+	{{ $.Scratch.Set "index" 0 }}
+	{{ range .Params.pages }}
+	{{ $.Scratch.Set "index" (add ($.Scratch.Get "index") 1) }}
+	<main class="paper">
+		<div class="grid">
+			<header class="flex-row">
+				{{ partial "cv/header" (dict "Header" $.Params.header "Data" $data "useFontAwesome" $.Params.useFontAwesome) }}
+			</header>
+
+			{{- if eq ($.Scratch.Get "index") 1 -}}
+			<div class="left-column">
+				{{ range .features }}
+					{{ partial "cv/section" (dict "Feature" . "Data" $data "Params" $.Params "Page" ($.Scratch.Get "index")) }}
+				{{ end }}
+			</div>
+
+			<div class="right-column">
+				{{ range $.Params.side }}
+					{{ partial "cv/section" (dict "Feature" . "Data" $data "Params" $.Params "Page" ($.Scratch.Get "index")) }}
+				{{ end }}
+			</div>
+			{{- else -}}
+			<div class="single-column">
+				{{- range .features -}}
+					{{ partial "cv/section" (dict "Feature" . "Data" $data "Params" $.Params "Page" ($.Scratch.Get "index")) }}
+				{{- end -}}
+			</div>
+			{{- end -}}
+		</div>
+	</main>
+	{{ end }}
+
+	{{ if .Params.footer.show }}
+	<footer>
+		{{ partial "cv/footer" (dict "Footer" .Params.footer "useFontAwesome" .Params.useFontAwesome) }}
+	</footer>
+	{{ end }}
+</body>
+</html>
