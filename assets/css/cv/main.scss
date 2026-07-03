@@ -25,6 +25,16 @@ main.paper header .title h1 {
   margin-bottom: 0.3rem;
 }
 
+/* Header contact block: one icon + handle per line, at a size small
+   enough that the longest handle never wraps onto a second line. */
+main.paper header .title .contact,
+main.paper header .title .contact-links {
+  display: block;
+  font-size: 0.72rem;
+  line-height: 1.6;
+  white-space: nowrap;
+}
+
 /* Tighter side column so all sections fit on page 1. */
 main.paper .right-column {
   .section { margin-bottom: 0.7rem; }
