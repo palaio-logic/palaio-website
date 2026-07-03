@@ -1,0 +1,33 @@
+/* CV styles from the Resume-A4 Hugo theme by Mert Bakır (MIT), https://gitlab.com/mertbakir/resume-A4 (see licenses/resume-a4.LICENSE) */
+$font-1: 'PT Sans', 'IBM Plex Sans', 'Arial', sans-serif;
+$border-color: #bfbfbf;
+$text-color: #202020;
+$toprak: #b56b00;
+$turk: #E30A17;
+
+@import "webfonts";
+@import "base";
+@import "redundant";
+@import "layout";
+@import "section";
+@import "footer";
+@import "print";
+
+/* Palaio adjustments: auto-sized header row and a more compact name,
+   so the content area gets the reclaimed space. */
+main.paper .grid {
+  grid-template-rows: auto repeat(5, 1fr);
+}
+
+main.paper header .title h1 {
+  font-size: 2.1rem;
+  letter-spacing: 0.08rem;
+  margin-bottom: 0.3rem;
+}
+
+/* Tighter side column so all sections fit on page 1. */
+main.paper .right-column {
+  .section { margin-bottom: 0.7rem; }
+  .section-title { margin-bottom: 0.35rem; }
+  .item { margin-bottom: 0.4rem; }
+}

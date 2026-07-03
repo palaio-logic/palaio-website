@@ -1,0 +1,51 @@
+# Publications for the CV, rendered in IEEE style.
+# The 2012 paper is listed without authors: the full author list could not be
+# verified from public sources — add it when known.
+
+- title: Teaching Robots Behaviors Using Spoken Language in Rich and Open Scenarios
+  authors:
+    - first_name: Victor
+      last_name: Paléologue
+  thesis: PhD thesis, Sorbonne Université
+  date: "2019"
+
+- title: Semantic-Based Interaction for Teaching Robot Behavior Compositions Using Spoken Language
+  authors:
+    - first_name: Victor
+      last_name: Paléologue
+    - first_name: Jocelyn
+      last_name: Martin
+    - first_name: Amit
+      middle_name: Kumar
+      last_name: Pandey
+    - first_name: Mohamed
+      last_name: Chetouani
+  journal: Social Robotics (ICSR 2018), Springer LNCS
+  page: 421–430
+  date: "2018"
+  link: https://link.springer.com/chapter/10.1007/978-3-030-05204-1_41
+
+- title: Semantic-based interaction for teaching robot behavior compositions
+  authors:
+    - first_name: Victor
+      last_name: Paléologue
+    - first_name: Jocelyn
+      last_name: Martin
+    - first_name: Amit
+      middle_name: Kumar
+      last_name: Pandey
+    - first_name: Alexandre
+      last_name: Coninx
+    - first_name: Mohamed
+      last_name: Chetouani
+  journal: 26th IEEE Int. Symp. on Robot and Human Interactive Communication (RO-MAN)
+  page: 50–55
+  date: "2017"
+  link: https://ieeexplore.ieee.org/document/8172279
+
+- title: Wrist Mounted Camera for Colour and Shape Recognition
+  journal: Advanced Materials Research
+  vol: 463–464
+  page: "1543"
+  date: "2012"
+  link: https://www.scientific.net/AMR.463-464.1543

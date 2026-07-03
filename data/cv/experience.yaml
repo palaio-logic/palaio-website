@@ -1,0 +1,106 @@
+# Work experience for the CV, grouped by company.
+# `page` assigns a company group to a CV page (default: 1).
+
+- company: Semio
+  page: 1
+  roles:
+    - role: Lead Software Engineer
+      date: Oct 2023 – Present
+      details: |
+        Making Semio's next animation tool for robotics, from Los Angeles (remote).
+        Software architecture, development process and DevOps.
+        Cross-platform development in Rust (Web & Embedded).
+
+    - role: Software Engineer
+      date: Jan 2022 – May 2022
+      details: |
+        Studied and presented various approaches for a new behavior system.
+        Developed the new behavior system in Rust, and demonstrated it on NAO.
+
+- company: Enchanted Tools
+  page: 1
+  roles:
+    - role: Software Engineer
+      date: Oct 2023 – Present
+      details: |
+        Developing the next Skill System for the Mirokai robots, in Paris.
+        Pushing natural interaction forward with (small) language models and more
+        autonomous decision-making.
+        Sharing expertise for architecture and software industrialization.
+
+- company: ESIEE Paris
+  page: 1
+  roles:
+    - role: Rust Teacher
+      date: Sep 2023 – Present
+      details: |
+        Teaching Rust for cybersecurity and networking to future engineers.
+        A way of sharing something I care about, beyond business as usual.
+
+- company: Palaio Logic
+  page: 1
+  roles:
+    - role: Robotic Behavior Systems Expert
+      date: Jan 2022 – Present
+      details: |
+        Offering my skills to robotics companies and integrators of conversational
+        AI as a freelance.
+        Development of embedded software (C++, Python, Rust, Kotlin, Java) and
+        consulting for software architecture and SDK design.
+        Independent research projects on Pepper's behavior, using AI planning
+        technologies.
+
+- company: SoftBank Robotics Europe — formerly Aldebaran
+  page: 2
+  roles:
+    - role: R&D Software Engineer in HRI
+      date: Jan 2020 – Nov 2021
+      details: |
+        Applied the outcomes of my PhD on teaching behaviors to robots in rich
+        scenarios, into an application for the Pepper robot to work as a
+        receptionist.
+        Translated the decision-making system from Python / C++ to JNI and Kotlin
+        for Android, centered on the PDDL planner Fast-Downward (AI).
+        Optimized to achieve sufficient performance for end-user-grade HRI with
+        limited (embedded) resources; designed the software architecture and the
+        ontology; set up an independent release process.
+
+    - role: R&D Software Engineer in Robotics
+      date: Jun 2015 – Jan 2020
+      details: |
+        Reworked the behavior execution pipeline for more repeatability and
+        security.
+        Study, specifications and technical lead for the integration of NAOqi
+        with Pepper's new GMS-compliant Android tablet.
+        Maintained the Qi SDK's API, part of the Pepper SDK, and contributed to
+        libqi, the C++ open-source framework for micro-services used in NAOqi.
+
+    - role: R&D Manager for Graphical Applications
+      date: Aug 2012 – Jun 2015
+      details: |
+        Led the team behind Choregraphe, an intuitive robotic behavior development
+        environment making the SDK more user-friendly.
+        Main challenges: software architecture, code quality (mostly C++),
+        contributions to the robotic framework, and making things appear simple.
+
+    - role: R&D Software Engineer for Robotics
+      date: Sep 2010 – Aug 2012
+      details: |
+        Developed various embedded modules and clients, including Choregraphe.
+        C++, multi-threading, software architecture, GUI.
+
+    - role: Internship for Robot Teleoperation
+      date: Feb 2010 – Sep 2010
+      details: |
+        Developed a prototype for teleoperating NAO robots through the internet:
+        real-time data capture, custom RPC protocol and GUI.
+
+- company: Universitatea Politehnica Timișoara
+  page: 2
+  roles:
+    - role: Internship in Robotics
+      date: Jun 2009 – Aug 2009
+      details: |
+        Expert training for KUKA robots programming.
+        Vision-based tracking prototype using MATLAB.
+        Worked on inverse kinematics at Robcon.
