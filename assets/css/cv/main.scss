@@ -31,3 +31,13 @@ main.paper .right-column {
   .section-title { margin-bottom: 0.35rem; }
   .item { margin-bottom: 0.4rem; }
 }
+
+/* Compact publication list so all entries fit under the experience. */
+main.paper .single-column {
+  .section { margin-bottom: 1rem; }
+  .section-publications {
+    font-size: 0.8rem;
+    line-height: 1.35;
+    .item { margin-bottom: 0.4rem; }
+  }
+}

@@ -63,8 +63,23 @@ jobs:
         with:
           name: site
           path: public/
+
+  # Deployment job — recorded as the "production" GitHub environment, so
+  # the deployment and its URL show up on the repository home page.
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+      url: https://palaio.eu/
+    steps:
+      - name: Download site artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: site
+          path: public
       - name: Deploy with FTPS
-        if: github.event_name != 'pull_request'
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.ftp_host }}

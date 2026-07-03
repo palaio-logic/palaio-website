@@ -15,6 +15,7 @@
 			{{- range .authors -}}
 				{{- substr .first_name 0 1 }}. {{ with .middle_name }}{{ substr . 0 1 }}. {{ end }}{{ .last_name }},{{ " " }}
 			{{- end -}}
+			{{- if .etal }}et al.,{{ end -}}
 		</span>
 		<span>"{{ .title }}",</span>
 		{{- if .journal }}
