@@ -5,7 +5,7 @@
 	Adapted to render as a regular page: arrangement comes from the page's
 	front matter (.Params) and resume data from data/cv/ (site.Data.cv).
 */ -}}
-<html lang="{{ .Site.LanguageCode }}">
+<html lang="en">
 
 <head>
 	<meta charset="utf-8">
@@ -20,7 +20,7 @@
 </head>
 
 <body>
-	{{ $data := .Site.Data.cv }}
+	{{ $data := hugo.Data.cv }}
 	{{ $.Scratch.Set "index" 0 }}
 	{{ range .Params.pages }}
 	{{ $.Scratch.Set "index" (add ($.Scratch.Get "index") 1) }}
