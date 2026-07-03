@@ -33,10 +33,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      # Capped below 0.146: the hugo-split-theme fork still calls the
-      # .Site.GoogleAnalytics method removed in Hugo 0.146. Bumping past
-      # that needs the theme updated first.
-      HUGO_VERSION: 0.123.7
+      HUGO_VERSION: 0.163.3
     steps:
       - name: Install Hugo CLI
         run: |

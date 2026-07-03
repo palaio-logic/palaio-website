@@ -1,6 +1,6 @@
 # Site settings
 baseURL = 'https://palaio.eu/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'Palaio Logic'
 theme = 'hugo-split-theme'
 # disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap"]
