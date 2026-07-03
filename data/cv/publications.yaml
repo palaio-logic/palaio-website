@@ -92,8 +92,17 @@
   link: https://doi.org/10.1109/ROMAN.2017.8172291
 
 - title: Wrist Mounted Camera for Colour and Shape Recognition
+  authors:
+    - first_name: Mihaela
+      last_name: Tilneac
+    - first_name: Sanda
+      last_name: Grigorescu
+    - first_name: Victor
+      last_name: Paléologue
+    - first_name: Valer
+      last_name: Dolga
   journal: Advanced Materials Research
   vol: 463–464
-  page: "1543"
+  page: 1543–1546
   date: "2012"
   link: https://www.scientific.net/AMR.463-464.1543
