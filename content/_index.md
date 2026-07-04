@@ -7,8 +7,9 @@ draft: false
 
 ## Call an expert
 
-Use the help of Victor Paléologue to take your smart device to the next level!
-See his CV [online](cv.html) or download it as a [PDF](resume.pdf).
+Use the help of Victor Paléologue to take your robots device to the next level!
+
+CV / Résumé: [HTML](cv.html) - [PDF](resume.pdf).
 
 * Ph.D. in Human-Robot Interaction (HRI)
 * \>10 y. of experience in C++ at [Aldebaran](https://www.aldebaran.com)
