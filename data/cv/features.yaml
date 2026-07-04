@@ -3,7 +3,7 @@
 
 about:
   name: Victor Paléologue
-  tagline: Freelance Software Engineer for Robotics, AI and smart devices — PhD in Human-Robot Interaction — Paris, France
+  tagline: Software Lead for Robotics & AI — PhD in Human-Robot Interaction — Paris, France
   email: contact@palaio.eu
   links:
     - title: palaio.eu
@@ -16,30 +16,30 @@ about:
       url: https://fediscience.org/@palaio
       icon: fab fa-mastodon
   details: |
-    Robotics are like magic to me: tell the right words (software), and the robot
-    will animate (hardware). For more than 10 years, my job has been to develop
-    GUI tools and SDKs to help users become wizards of robotics. Such development
-    involved intense teamwork, good organization, communication and a lot of
-    programming skills.
+    Robotics are magic: use the right words (software), and it
+    will animate (hardware). After a dozen years in the field,
+    the passion is still whole, and my experience has been rich:
+    designing decision-making systems, core robotics software,
+    SDKs, GUI tools (web, desktop); as a developer, a researcher,
+    a software lead, a manager, scrum master or product owner.
 
-    I specialize in AI for embedded software: I can bring machine learning,
-    chatbots and task planning into robots, as well as mobile and web apps, and I
-    have serious experience integrating tough code into custom targets. All of
-    these are ingredients for better Human-Machine Interaction, working towards
-    Human-Robot Interaction, the field I specialized in with my PhD at ISIR,
-    Sorbonne Université.
+    My know-how: integrating AI in a larger piece of interactive robotics software.
+    LLMs, task planners, on embedded systems, with care for the performance
+    required for Human-Robot Interaction.
+    I keep nurturing deep programming and system skills,
+    and am knowledgeable in many programming languages and frameworks.
 
 skills:
   - groupName: Programming
     list:
       - C++ · Rust · Python
-      - Kotlin · Java
+      - TypeScript · Kotlin
 
   - groupName: Robotics & AI
     list:
       - ROS · PDDL planning
       - Reinforcement Learning
-      - TensorFlow · TinyML
+      - Language Models · TinyML
 
   - groupName: Engineering
     list:
@@ -62,12 +62,14 @@ languages:
     level: Elementary
 
 certificates:
+  - title: ROS-based Unitree G1 Humanoid RL
+    subtitle: The Construct
+
   - title: AI Agents Fundamentals
+    subtitle: HuggingFace
 
   - title: Applied Tiny Machine Learning (TinyML) for Scale
     subtitle: HarvardX
 
-  - title: Deep Learning Specialization
+  - title: Deep Learning
     subtitle: DeepLearning.AI
-
-  - title: ROS-based Unitree G1 Humanoid Robotics Training

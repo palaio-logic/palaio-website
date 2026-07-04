@@ -5,14 +5,14 @@
   page: 1
   roles:
     - role: Lead Software Engineer
-      date: Oct 2023 – Present
+      date: Oct 2023 – Present (freelance, part-time)
       details: |
         Making Semio's next animation tool for robotics, from Los Angeles (remote).
         Software architecture, development process and DevOps.
         Cross-platform development in Rust (Web & Embedded).
 
     - role: Software Engineer
-      date: Jan 2022 – May 2022
+      date: Jan 2022 – May 2022 (freelance, full-time)
       details: |
         Studied and presented various approaches for a new behavior system.
         Developed the new behavior system in Rust, and demonstrated it on NAO.
@@ -21,7 +21,7 @@
   page: 1
   roles:
     - role: Software Engineer
-      date: Oct 2023 – Present
+      date: Oct 2023 – Present (freelance, part-time)
       details: |
         Developing the next Skill System for the Mirokai robots, in Paris.
         Pushing natural interaction forward with (small) language models and more
@@ -32,23 +32,10 @@
   page: 1
   roles:
     - role: Rust Teacher
-      date: Sep 2023 – Present
+      date: Sep 2023 – Present (from time to time)
       details: |
         Teaching Rust for cybersecurity and networking to future engineers.
         A way of sharing something I care about, beyond business as usual.
-
-- company: Palaio Logic
-  page: 1
-  roles:
-    - role: Robotic Behavior Systems Expert
-      date: Jan 2022 – Present
-      details: |
-        Offering my skills to robotics companies and integrators of conversational
-        AI as a freelance.
-        Development of embedded software (C++, Python, Rust, Kotlin, Java) and
-        consulting for software architecture and SDK design.
-        Independent research projects on Pepper's behavior, using AI planning
-        technologies.
 
 - company: SoftBank Robotics Europe — formerly Aldebaran
   page: 2
