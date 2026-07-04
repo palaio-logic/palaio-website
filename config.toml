@@ -20,6 +20,10 @@ copyright = "CC BY Palaio Logic"
 author = "Palaio Logic"
 description = "Palaio Logic is a contractor in Robotics Software Development, AI & HRI"
 
+# Custom stylesheet (static/css/style.css) layered over the theme
+[params.custom.css]
+enable = true
+
 # Section - Visual
 [params.visual]
 
@@ -59,6 +63,19 @@ new_tab = true                                 # new tab
 [[params.links.list2.link]]
 text = "Email"
 url = "mailto:contact@palaio.eu"
+
+# Links List #3
+[[params.links]]
+[params.links.list3]
+heading = "Résumé"
+
+[[params.links.list3.link]]
+text = "CV (HTML)"
+url = "cv.html"
+
+[[params.links.list3.link]]
+text = "CV (PDF)"
+url = "resume.pdf"
 
 # The original template is released under the Creative Commons Attribution 3.0 License.
 # Please keep the original attribution link when using for your own project.

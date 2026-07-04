@@ -7,14 +7,15 @@ draft: false
 
 ## Call an expert
 
-Use the help of Victor Paléologue to take your robots device to the next level!
+Use the help of Victor Paléologue — software lead, engineer and PhD in
+Human-Robot Interaction — to take your robots and smart devices further.
 
 CV / Résumé: [HTML](cv.html) - [PDF](resume.pdf).
 
 * Ph.D. in Human-Robot Interaction (HRI)
-* \>10 y. of experience in C++ at [Aldebaran](https://www.aldebaran.com)
-* [TinyML](https://credentials.edx.org/credentials/97ee94165e59477aad0323eb55ad1018/)
-  & [Deep Learning](https://www.coursera.org/account/accomplishments/specialization/GTHD6MQDV5VF) certifications
+* 12+ years of robotics software, from [Aldebaran](https://www.aldebaran.com)
+  to Semio and Enchanted Tools
+* AI on embedded targets: language models, task planning, TinyML
 
 [Just call me](https://cal.com/victor-paleologue/call)!
 
@@ -24,42 +25,13 @@ CV / Résumé: [HTML](cv.html) - [PDF](resume.pdf).
 
 [![Semio](semio.webp)](https://semio.ai)
 
-## Virtual and Embodied Agents
+## How I can help
 
-Virtual agents, embodied in robots
-are often large software systems with numerous modules.
+* [**Virtual & embodied agents**](expertise/virtual-and-embodied-agents.html) —
+  architecture and integration of the large software systems behind robots.
+* [**Decision-making, dialogue & AI**](expertise/decision-making-dialogue-and-ai.html) —
+  explainable AI for behaviors and dialogue, from task planning to language models.
+* [**Embedded development**](expertise/embedded-development.html) —
+  native software on constrained targets, from MCUs to Android, in C++ and Rust.
 
-* How to put them together right?
-* How to take advantage ROS or my current middleware?
-* How to deal with concurrent events and multi-threading?
-* Which APIs to provide to the clients?
-* How to implement the higher-level decision-making?
-
-I had the opportunity to work on these issues in the past,
-and I love to get into these challenges,
-while taking care of the legacy.
-
-## Decision-making, dialogues and AI
-
-Interesting behaviors and dialogues can be achieved with classical programming,
-with models like Behavior Trees, State Machines...
-
-But there is a lot to gain by bringing in AI techniques:
-
-* Custom language models and semantic extraction
-* Planning to produce more flexible behaviors or dialogues
-* Situational pattern recognition
-
-I favor explainable solutions that let you in control,
-and the reduction of data collection.
-
-## Embedded Development
-
-From MCUs to Android phones,
-there is a large range of devices I can work with.
-This is thanks to languages such as C++ or Rust.
-
-I have experience in integrating native libraries with Python or Java,
-and I am autonomous in developing the apps embedding them.
-
-Did you know native libraries can be integrated in web apps too, thanks to WebAssembly?
+More on my [fields of expertise](expertise/).
