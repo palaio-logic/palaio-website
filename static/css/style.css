@@ -1,0 +1,34 @@
+/* Palaio Logic — tweaks layered over the hugo-split-theme.
+   Loaded after split.css via params.custom.css.enable. */
+
+/* Calmer hero: smaller headline and body so the page feels less shouty. */
+.split-intro {
+  font-size: 52px;
+  line-height: 62px;
+}
+body.page-template-page-fullsingle-split {
+  font-size: 19px;
+  line-height: 30px;
+}
+
+/* A less dominant logo: contained with breathing room rather than
+   full-bleed, so it reads as a mark, not a wall. */
+.fs-split .split-image {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #061C30;
+}
+
+@media (max-width: 800px) {
+  .split-intro {
+    font-size: 38px;
+    line-height: 46px;
+  }
+  /* On phones the logo should not eat the whole first screen. */
+  .fs-split .split-image {
+    height: 40vh;
+  }
+}
+
+/* The "Résumé" footer links share the same styling as Connect/Contact. */
