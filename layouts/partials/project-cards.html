@@ -1,0 +1,14 @@
+{{- /* Renders the side-project cards from site.Data.projects */ -}}
+<div class="card-grid">
+  {{ range hugo.Data.projects }}
+  <div class="proj-card">
+    <h3>{{ .name }}</h3>
+    {{ with .tags }}<ul class="tags">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>{{ end }}
+    <p>{{ .description }}</p>
+    <div class="proj-links">
+      <a href="{{ .repo }}"><i class="fas fa-code-branch"></i> {{ .repo_label | default "Code" }}</a>
+      {{ with .demo }}<a href="{{ . }}"><i class="fas fa-play"></i> Live demo</a>{{ end }}
+    </div>
+  </div>
+  {{ end }}
+</div>
