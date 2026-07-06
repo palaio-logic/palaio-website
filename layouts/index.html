@@ -1,0 +1,58 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-copy">
+      <span class="eyebrow">Robotics · AI · Human-Robot Interaction</span>
+      <h1>{{ .Params.tagline | default .Site.Title }}</h1>
+      <p class="lead">{{ .Params.lead }}</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="{{ "/expertise/" | relURL }}">Explore my expertise</a>
+        <a class="btn btn-ghost" href="{{ "cv.html" | relURL }}">View CV</a>
+      </div>
+      {{ with .Params.highlights }}
+      <ul class="hero-facts">
+        {{ range . }}<li>{{ . | markdownify }}</li>{{ end }}
+      </ul>
+      {{ end }}
+    </div>
+    <div class="hero-figure">
+      <img src="{{ "palaio_big_logo.webp" | relURL }}" alt="Palaio Logic">
+    </div>
+  </div>
+</section>
+
+{{ $xp := site.GetPage "/expertise" }}
+<section class="section section-alt">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">What I can do for you</span>
+      <h2>Fields of expertise</h2>
+      <p>{{ $xp.Description }}</p>
+    </div>
+    {{ partial "expertise-cards.html" (dict "pages" $xp.Pages.ByWeight) }}
+    <p style="margin-top:1.75rem;"><a href="{{ $xp.RelPermalink }}">See all fields of expertise&nbsp;→</a></p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Trusted by</span>
+      <h2>They recommend me</h2>
+    </div>
+    <div class="logos">
+      {{ range .Params.recommend }}
+      <a href="{{ .url }}" title="{{ .name }}"><img src="{{ .logo | relURL }}" alt="{{ .name }}"></a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section cta-band">
+  <div class="wrap-narrow">
+    <h2>Let's build something that moves</h2>
+    <p>Robotics, embedded AI, decision-making — tell me about your project.</p>
+    <a class="btn btn-primary" href="https://cal.com/victor-paleologue/call">Schedule a call</a>
+  </div>
+</section>
+{{ end }}

@@ -1,6 +1,7 @@
 ---
 title: Decision-Making, Dialogue & AI
 description: Explainable AI for behaviors and dialogue, from task planning to language models.
+icon: fas fa-brain
 weight: 20
 ---
 

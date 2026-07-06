@@ -1,6 +1,7 @@
 ---
 title: Virtual & Embodied Agents
 description: Architecture and integration of the large software systems behind robots and virtual agents.
+icon: fas fa-robot
 weight: 10
 ---
 
