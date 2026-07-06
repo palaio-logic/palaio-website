@@ -6,7 +6,7 @@ lead: >-
   Human-Robot Interaction — to take your robots and smart devices further.
 highlights:
   - "PhD in Human-Robot Interaction"
-  - "12+ years across [Aldebaran](https://www.aldebaran.com), Semio & Enchanted Tools"
+  - "12+ years across [Aldebaran](https://www.aldebaran.com), [Semio](https://semio.ai) & Enchanted Tools"
   - "AI on embedded: language models, task planning, TinyML"
 recommend:
   - name: Aldebaran
