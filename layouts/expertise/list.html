@@ -1,24 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	{{ partial "page-shell-head.html" . }}
-</head>
-<body>
-	<div class="page-container">
-		{{ partial "site-nav.html" . }}
-		<main>
-			<h1>{{ .Title }}</h1>
-			<div class="page-summary">{{ .Content }}</div>
-			<ul class="article-list">
-				{{ range .Pages.ByWeight }}
-				<li>
-					<h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-					<p>{{ .Description }}</p>
-				</li>
-				{{ end }}
-			</ul>
-		</main>
-		{{ partial "site-footer.html" . }}
-	</div>
-</body>
-</html>
+{{ define "main" }}
+<section class="article-head section-alt">
+  <div class="wrap">
+    <span class="eyebrow">Expertise</span>
+    <h1>{{ .Title }}</h1>
+    <div class="lead">{{ .Content }}</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    {{ partial "expertise-cards.html" (dict "pages" .Pages.ByWeight) }}
+  </div>
+</section>
+
+<section class="section cta-band">
+  <div class="wrap-narrow">
+    <h2>Not sure which fits?</h2>
+    <p>Tell me about your robot, device or system — we'll find the right angle.</p>
+    <a class="btn btn-primary" href="https://cal.com/victor-paleologue/call">Schedule a call</a>
+  </div>
+</section>
+{{ end }}

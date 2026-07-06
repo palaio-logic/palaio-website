@@ -1,16 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	{{ partial "page-shell-head.html" . }}
-</head>
-<body>
-	<div class="page-container">
-		{{ partial "site-nav.html" . }}
-		<main>
-			<h1>{{ .Title }}</h1>
-			{{ .Content }}
-		</main>
-		{{ partial "site-footer.html" . }}
-	</div>
-</body>
-</html>
+{{ define "main" }}
+<article>
+  <div class="article-head section-alt">
+    <div class="wrap-narrow">
+      <span class="eyebrow">Expertise</span>
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p class="lead">{{ . }}</p>{{ end }}
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="wrap-narrow prose">
+      {{ .Content }}
+      <a class="backlink" href="{{ "/expertise/" | relURL }}">← All fields of expertise</a>
+    </div>
+  </div>
+</article>
+
+{{ $others := where .Parent.Pages.ByWeight "Permalink" "!=" .Permalink }}
+{{ with $others }}
+<section class="section section-alt">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Keep exploring</span>
+      <h2>Other fields of expertise</h2>
+    </div>
+    {{ partial "expertise-cards.html" (dict "pages" .) }}
+  </div>
+</section>
+{{ end }}
+
+<section class="section cta-band">
+  <div class="wrap-narrow">
+    <h2>Have a project in mind?</h2>
+    <p>Let's talk about how this applies to your robots and devices.</p>
+    <a class="btn btn-primary" href="https://cal.com/victor-paleologue/call">Schedule a call</a>
+  </div>
+</section>
+{{ end }}

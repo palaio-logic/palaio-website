@@ -1,6 +1,7 @@
 ---
 title: Embedded Development
 description: Native software on constrained targets, from MCUs to Android, in C++ and Rust.
+icon: fas fa-microchip
 weight: 30
 ---
 

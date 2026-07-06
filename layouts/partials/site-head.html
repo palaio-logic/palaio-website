@@ -1,0 +1,18 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{ $desc := .Description | default .Site.Params.description }}
+{{ with $desc }}<meta name="description" content="{{ . }}">{{ end }}
+<meta name="author" content="{{ .Site.Params.author }}">
+
+<!-- Open Graph -->
+<meta property="og:site_name" content="{{ .Site.Title }}">
+<meta property="og:title" content="{{ if .IsPage }}{{ .Title }} — {{ end }}{{ .Site.Title }}">
+{{ with $desc }}<meta property="og:description" content="{{ . }}">{{ end }}
+<meta property="og:type" content="website">
+
+{{ $css := resources.Get "css/site/main.scss" | toCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+<link rel="stylesheet" href="{{ "vendor/fontawesome/css/all.min.css" | relURL }}">
+<link rel="icon" href="{{ "favicon.ico" | relURL }}">
+<title>{{ if .IsPage }}{{ .Title }} — {{ end }}{{ .Site.Title }}</title>

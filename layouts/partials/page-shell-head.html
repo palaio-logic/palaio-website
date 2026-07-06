@@ -1,9 +1,0 @@
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-{{ with .Description | default .Site.Params.description }}
-<meta name="description" content="{{ . }}">
-{{ end }}
-{{ $style := resources.Get "css/pages/main.scss" | toCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.RelPermalink }}" />
-<link rel="icon" href="{{ "favicon.ico" | relURL }}">
-<title>{{ .Title }} — {{ .Site.Title }}</title>

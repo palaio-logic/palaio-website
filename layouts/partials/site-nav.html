@@ -1,9 +1,0 @@
-<nav class="site-nav">
-	<a class="site-name" href="{{ "/" | relURL }}">{{ .Site.Title }}</a>
-	{{ with .Site.GetPage "/expertise" }}
-	<a href="{{ .RelPermalink }}" {{ if eq $.Section "expertise" }}class="active"{{ end }}>Expertise</a>
-	{{ end }}
-	{{ with .Site.GetPage "/cv" }}
-	<a href="{{ .RelPermalink }}">CV</a>
-	{{ end }}
-</nav>
