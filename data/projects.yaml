@@ -16,7 +16,7 @@
     reasoning — planning around what people know and believe. Born from my
     PhD research.
   tags: ["PDDL", "C++", "Python", "HRI"]
-  repo: "TODO-GITLAB-URL"
+  repo: https://gitlab.com/victor.paleologue/epistemic-planning-tell-pepper
   repo_label: GitLab
 
 - name: Freedback
