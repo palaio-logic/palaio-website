@@ -206,6 +206,37 @@ h1, h2, h3 { color: $ink; line-height: 1.2; font-weight: 700; }
 .xp-card .xp-more { margin-top: auto; color: $teal; font-weight: 700; font-size: 0.92rem; }
 .xp-card:hover .xp-more { color: darken($teal, 8%); }
 
+/* ---- Project cards ----------------------------------------------- */
+.proj-card {
+  display: flex;
+  flex-direction: column;
+  background: $bg-soft;
+  border: 1px solid $line;
+  border-radius: 14px;
+  padding: 1.6rem;
+}
+.section-alt .proj-card { background: #fff; }
+.proj-card h3 { font-size: 1.15rem; margin-bottom: 0.7rem; }
+.proj-card p { color: $muted; font-size: 0.97rem; margin-bottom: 1.1rem; }
+.proj-card .tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.9rem;
+}
+.proj-card .tags li {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: $teal;
+  background: rgba(15,125,132,0.10);
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+}
+.proj-links { margin-top: auto; display: flex; flex-wrap: wrap; gap: 1.2rem; }
+.proj-links a { font-weight: 700; font-size: 0.9rem; }
+.proj-links i { margin-right: 0.3rem; font-size: 0.85em; }
+
 /* ---- Recommend logos --------------------------------------------- */
 .logos { display: flex; flex-wrap: wrap; align-items: center; gap: 2.5rem; }
 .logos a { display: inline-block; }

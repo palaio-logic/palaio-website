@@ -1,0 +1,27 @@
+# Side projects showcased on the home page.
+# Each links out to its repository; `demo` adds a second link when present.
+
+- name: ros-viz-rs
+  description: >-
+    A generic ROS 2 robot visualizer in Rust (Bevy + egui) — renders robot
+    URDFs with live kinematics, natively and right in the browser.
+  tags: ["Rust", "ROS 2", "WebAssembly"]
+  repo: https://github.com/victorpaleologue/ros-viz-rs
+  repo_label: GitHub
+  demo: https://victorpaleologue.github.io/ros-viz-rs/
+
+- name: Theory-of-Mind PDDL Planner for Pepper
+  description: >-
+    A PDDL-based task planner for the Pepper robot with theory-of-mind
+    reasoning — planning around what people know and believe. Born from my
+    PhD research.
+  tags: ["PDDL", "C++", "Python", "HRI"]
+  repo: https://gitlab.com/victor.paleologue/epistemic-planning-tell-pepper
+  repo_label: GitLab
+
+- name: Freedback
+  description: >-
+    A framework for decentralized feedback, written in Rust.
+  tags: ["Rust"]
+  repo: https://github.com/victorpaleologue/Freedback
+  repo_label: GitHub
